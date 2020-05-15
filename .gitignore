@@ -1,0 +1,16 @@
+1.	Write a program that prompts the user to enter a month (1-12) and a year (e.g., 2012), and then displays a calendar for that month and year as illustrated below:
+
+Your program must use the following methods:
+
+Method	Description
+void printMonthCalendar(int month, int year)	Displays a calendar like the one above for a specified month and year.
+void printMonthHeader(int month, int year)	Displays the header information (month, year, line separator, 3-character day         names) for a calendar.
+void printMonthBody(int month, int year)	Displays the days in the calendar associated with the corresponding days of the         week.
+String getMonthName(int month)	Returns the name of the month for a specified month number (e.g., returns March for m=3).
+int getStartDay(int month, int day, int year)	Returns the day of week number (1=Monday,…, 7= Sunday) for the specified month,     day, and year.
+int getNumDaysInMonth(int month, int year)	Returns the number of days in specified month and year. Leap years are accounted       for.
+boolean isLeapYear(int year)	Returns true if the specified year is a leap year, and returns false otherwise.
+
+2.	Write a program that prompts the user to specify a year (e.g., 2012) and then displays a calendar for each month in that year. You must reuse the methods from part one.
+
+
